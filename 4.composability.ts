@@ -69,4 +69,6 @@ Think. Compare and contrast the:
 Question:
 1) What did you learn from this problem? Why would we want to refactor the code to be
 like the Composable implementation?
+
+Composable implementation way can be reused anytime and Non-composable implementation is easier syntax but not cleaner.
 */

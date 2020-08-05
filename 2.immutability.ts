@@ -9,9 +9,11 @@ Questions:
 2.1) without changing the number 42;
 2.2) such that cause of the bug can be spotted by the compiler at *compile time*.
 3) What did you learn from this exercise?
+
+Ans: I learnt about how to prevent divided by zero error and typescript type.
 */
 function safeDivide(): number {
-    let x: number = 42;
+    const x: number = 42;
 
     if (x == 0) throw new Error("x should not be 0");
 
@@ -19,3 +21,5 @@ function safeDivide(): number {
 
     return 42 / x;
 }
+
+console.log(safeDivide());
